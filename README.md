@@ -2,13 +2,13 @@ puppet-hubot
 ============
 James Fryman <james@frymanet.com>
 
-This module deploys Hubot
+This module deploys [Hubot](https://hubot.github.com)
 
 # Quick Start
 
-Install and bootstrap a Hubot instance
+[Install and bootstrap](https://hubot.github.com/docs/) a Hubot instance
 
-Tested on Debian Squeeze
+Tested on Debian Squeeze and CentOS 6
 
 # Requirements
 
@@ -39,6 +39,4 @@ Some scripts require environment variables to be set at run time. this can be ac
     environment  => [ 'MYVAR=VAR1', 'THISVAR=that' ],
   }
 </pre>
-# TODO
-- Add Redhat Support?
 
