@@ -9,7 +9,7 @@ class hubot::params {
       $service_name = 'hubot'
     }
     /CentOS|Redhat|Fedora/: {
-      $packages = ['gcc', 'gcc-c++', 'kernel-devel', 
+      $packages = ['kernel-devel', 
                   'openssl-devel', 'git', 'redis', 'expat', 'expat-devel'
                   ] 
       $npm_packages = ['coffee-script']
